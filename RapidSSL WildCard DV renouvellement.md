@@ -1,6 +1,8 @@
 Se connecter sur Digicert avec le compte NOC,
 Aller dans certificates Order,rechercher lipsfrance et décocher "exact match disabled" puis cliquer sur Renew sur le certificat.
 
+Aller sur le serveur du client en question, puis dans /etc/celeonet/httpd/certfiicates/$domains/ et prendre le fichier .CSR | renouveler un an ou plus (voir fiche de livraison), ne pas cocher auto-reissue.
+
 Fait avec immodvisor
 	
 	#Crée un certificat csr
